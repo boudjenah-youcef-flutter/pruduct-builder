@@ -1,4 +1,4 @@
-import { Iprodect } from "../intrfaces";
+import { InputForm, Iprodect } from "../intrfaces";
 import {v4 as uuid} from "uuid";
 
 export const productlist : Iprodect[] = [
@@ -99,3 +99,29 @@ export const productlist : Iprodect[] = [
     },
 ]
 
+export const formlabel : InputForm[] = [
+    {
+        id : "1" ,
+        name : "title",
+        label : "Product title",
+        type : "text"
+    },
+    {
+        id : "2" ,
+        name : "title",
+        label : "Product description",
+        type : "text"
+    },
+    {
+        id : "3" ,
+        name : "title",
+        label : "Product Image URL",
+        type : "text"
+    },
+    {
+        id : "4" ,
+        name : "title",
+        label : "Product Price",
+        type : "text"
+    }
+]

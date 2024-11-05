@@ -10,3 +10,11 @@ export interface Iprodect {
         name :string
     }
 }
+
+export interface InputForm {
+    id : string
+    name : "title" | "descreption" | "imagUrl" | "price"
+    label : string
+     type : string
+
+}
